@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font: "Space Grotesk"; 
+    --blue: #3778FA;
+    --black: #222222;
+}
+
+body{
+    background-color: white;
+    font-family: var(--font);
+}
+
+#menu-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: var(--blue);
+}
+
+main{
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hero-text-content h1, #learn-more-footer h1{
+    margin-top: 3rem;
+    font-size: 2.75rem;
+}
+
+#hero-text-content h4{
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    font-weight: 450;
+    font-size: 0.90rem;
+}
+
+#hero-mobile-content{
+    background-color: var(--black);
+    border-radius: 20px;
+    padding-bottom: 1.5rem;
+}
+
+#hero-mobile-content img{
+    margin-top: -3rem;
+}
+
+#help-content{
+    margin-top: 7rem;
+}
+
+#help-content h1{
+    margin-bottom: 2.5rem;
+}
